@@ -1,7 +1,6 @@
 #include "Conversion.h"
 #include <stdio.h>
 
-
 int main(void){
     const int STEP = 20;
     const int LOWER = 0 ;

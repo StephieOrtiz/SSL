@@ -1,7 +1,6 @@
 #include <assert.h>
 #include <math.h>
 //Test de las funciones
-
 int floatcomp (float x, float y, float epsilon);
 
 int main () {

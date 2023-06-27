@@ -7,7 +7,7 @@ conversion.o: conversion.c
        gcc -c Conversion.c
 
 ConversionTest: ConversionTest.c  
-        gcc ConversionTest.c Conversion.o -o ConversionTest
+       gcc ConversionTest.c Conversion.o -o ConversionTest
 
 test: ConversionTest
       ./ConversionTest
